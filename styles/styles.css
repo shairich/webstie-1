@@ -1,10 +1,35 @@
 *
 {
     font-family: arial;
-    color: purple;
+    color: black;
 }
 div
 {
     background-color: lightblue;
     padding: 20px;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100px; 
+}
+
+.my-box {
+  /*display: flex;*/
+  width: 1200px;
+  height: 900px;
+  background-color: whitesmoke;
+  border: 2px solid #333333;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color:whitesmoke;
+  font-size: 18px;
 }
